@@ -113,6 +113,8 @@ nomad-python-challenge/
 │   │   └── notes.md
 │   └── assignment09/
 │       └── notes.md
+├── practice/                  # 개인 연습 코드
+│   └── my_practice.py
 └── README.md
 ```
 
