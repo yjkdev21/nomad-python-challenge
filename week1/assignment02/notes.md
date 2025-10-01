@@ -1,6 +1,6 @@
 # Assignment #02
 
-## 2.4 Functions 함수
+## #2.4 Functions 함수
 
 ### 파이썬 함수 규칙
 
@@ -21,7 +21,7 @@ say_hello()
 > **출력:** `hello how r u?`
 > 
 
-## 2.5 Indentation 들여쓰기
+## #2.5 Indentation 들여쓰기
 
 - 파이썬 문법은 중괄호 대신 **들여쓰기**로 **영역(scope)**을 지정
 - 들여쓰기는 일관성만 유지하면 됨 (보통 스페이스 4칸 권장)
@@ -45,7 +45,7 @@ def say_bye():
     print("Good Bye!")
 ```
 
-## 2.6 Parameters 매개변수와 인수
+## #2.6 Parameters 매개변수와 인수
 
 ### 매개변수 (Parameter)
 
@@ -74,7 +74,7 @@ say_hi("Tom")
 > ```
 > 
 
-## 2.7 Multiple Parameters 다중 매개변수
+## #2.7 Multiple Parameters 다중 매개변수
 
 - 함수에 필요한 매개변수의 개수와 인수의 개수는 동일해야 함
 - 2개 이상의 인수가 필요한 경우 순서에 유의
