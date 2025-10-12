@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <title>Job Scrapper</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Job Scrapper</h1>
+        <h4>Select a job keyword</h4>
+
+        <form id="jobForm">
+            <select id="jobSelect" required>
+                <option value="">-- Choose a language --</option>
+                <option value="python">Python</option>
+                <option value="js">JavaScript</option>
+                <option value="java">Java</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </main>
+
+    <script>
+        document.getElementById("jobForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const selected = document.getElementById("jobSelect").value;
+            if (selected) {
+                window.location.href = `search/search-${selected}.html`;
+            }
+        });
+    </script>
+</body>
+
+</html>
