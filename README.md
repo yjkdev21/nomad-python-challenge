@@ -51,6 +51,9 @@ Tools
 - Keyword Arguments (키워드 인자)
 - for loops (반복문)
 - if/elif/else (조건문)
+- Object Oriented Programming (객체 지향 프로그래밍)
+- Web Scraping (웹 스크래핑)
+- Flask Web Framework
 
 ### 수행 과제
 
@@ -60,13 +63,14 @@ Tools
 - Web Server 구축
 - Search Feature 구현
 - CSV 파일 내보내기
+- 채용 공고 웹 스크래퍼 제작
 - 그 외 다수
 
 ---
 
 ## 학습 진도표 (2주 과정)
 
-> 최종 업데이트: 2024.01.25
+> 최종 업데이트: 2025.10.13
 
 ### 1주차
 
@@ -93,30 +97,74 @@ Tools
 
 ```
 nomad-python-challenge/
-├── week1/
+│
+├── week1/                      # 1주차 학습
 │   ├── assignment01/
-│   │   └── notes.md          # 학습 내용 정리
+│   │   ├── main.py            # Python 실습 코드
+│   │   └── notes.md           # 학습 내용 정리
 │   ├── assignment02/
+│   │   ├── main.py
 │   │   └── notes.md
 │   ├── assignment03/
+│   │   ├── main.py
 │   │   └── notes.md
 │   ├── assignment04/
+│   │   ├── main.py
 │   │   └── notes.md
 │   ├── assignment05/
+│   │   ├── main.py
 │   │   └── notes.md
 │   └── assignment06/
+│       ├── main.py
 │       └── notes.md
-├── week2/
+│
+├── week2/                      # 2주차 학습
 │   ├── assignment07/
+│   │   ├── main.py
 │   │   └── notes.md
 │   ├── assignment08/
+│   │   ├── main.py
 │   │   └── notes.md
-│   └── assignment09/
-│       └── notes.md
-├── practice/                  # 개인 연습 코드
-│   └── my_practice.py
-└── README.md
+│   ├── assignment09/
+│   │   ├── main.py
+│   │   └── notes.md
+│   └── final-project/          # 최종 수료 프로젝트 (Flask Web App)
+│       ├── app.py              # Flask 웹 서버
+│       ├── extractors/
+│       │   └── wanted.py       # 채용 공고 스크래퍼
+│       └── templates/
+│           ├── index.html      # 메인 페이지
+│           └── search.html     # 검색 결과 페이지
+│
+├── search/                     # 정적 검색 결과 페이지 (GitHub Pages용)
+│   ├── search-java.html
+│   ├── search-js.html
+│   └── search-python.html
+│
+├── index.html                  # 프로젝트 메인 페이지 (수료 증명용)
+└── README.md                   # 프로젝트 전체 설명
 ```
+
+---
+
+## 최종 프로젝트
+
+### 채용 공고 웹 스크래퍼
+
+Flask를 활용한 실시간 채용 공고 검색 웹 애플리케이션
+
+**주요 기능**
+- 채용 공고 실시간 스크래핑
+- 키워드 기반 검색 기능
+- 검색 결과 캐싱으로 성능 최적화
+- 반응형 웹 디자인 (Pico CSS)
+- CSV 파일 내보내기
+
+**사용 기술**
+- **Backend**: Flask (Python Web Framework)
+- **Scraping**: Playwright, BeautifulSoup4
+- **Frontend**: HTML, Pico CSS
+- **Data**: Python Dictionary (In-memory Cache)
 
 ---
 
@@ -141,16 +189,16 @@ nomad-python-challenge/
 
 ## 학습 진행 상황
 
-- [ ] 1주차 완료
-- [ ] 2주차 완료
-- [ ] 졸업작품 완성
+- [x] 1주차 완료
+- [x] 2주차 완료
+- [x] 졸업작품 완성
 
 ---
 
 ## 학습 기록
 
 **시작일**: 2025.09.29  
-**목표 완료일**: 2025.10.12  
+**완료일**: 2025.10.13  
 **학습 기간**: 2주 (14일)
 
 ---
